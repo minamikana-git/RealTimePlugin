@@ -37,7 +37,7 @@ public class NMSUtil {
             Object lighobj = constu.newInstance(wh, l.getX(), l.getY(), l.getZ(), false, false);
             Object obj = getNMSClass("PacketPlayOutSpawnEntityWeather").getConstructor(getNMSClass("Entity")).newInstance(lighobj);
             sendPacket(player, obj);
-            player.playSound(player.getLocation(), Sound.AMBIENCE_THUNDER, 100, 1);
+            player.playSound(player.getLocation(), Sound.ENTITY_LIGHTNING_BOLT_THUNDER, 100f, 1f);
         } catch (Exception e) {
             e.printStackTrace();
         }
