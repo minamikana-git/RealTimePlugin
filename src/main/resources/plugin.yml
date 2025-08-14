@@ -1,6 +1,6 @@
 main: de.rexlnico.realtimeplugin.main.Main
 authors: [ rexlNico, fluse1367 ]
-version: 3.8
+version: 3.9
 api-version: 1.21
 name: RealTimePlugin
 website: https://rexlNico.de
